@@ -40,13 +40,12 @@ export const projects = [
 	},
 	{
 		name : "A* Algorithm Visualizer",
-		code : "https://github.com/barisayyildiz/Sorting-Algorithms-Visualizer",
-		demo : "https://barisayyildiz.github.io/Sorting-Algorithms-Visualizer/",
+		code : "https://github.com/barisayyildiz/Astar-Algorithm-Visualizer",
 		image : "/images/astar.png"
 	},
 	{
 		name : "Sorting Algorithms Visualizer",
-		code : "https://github.com/barisayyildiz/Astar-Algorithm-Visualizer",
+		code : "https://github.com/barisayyildiz/Sorting-Algorithms-Visualizer",
 		image : "/images/sorting.png"
 	},
 ]

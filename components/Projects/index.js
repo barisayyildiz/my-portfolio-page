@@ -8,7 +8,7 @@ import { ProjectsWrapper } from './ProjectStyles'
 
 function Projects(){
 	return(
-		<ProjectsWrapper>
+		<ProjectsWrapper id="projects">
 			<h1>Projects</h1>
 			<div className='projects_grid'>
 				{

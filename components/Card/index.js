@@ -16,7 +16,7 @@ function Card({project}){
 					</Link>
 					{
 						project.demo && (
-							<Link href={project.code}>
+							<Link href={project.demo}>
 								<a>Demo</a>
 							</Link>
 						)
