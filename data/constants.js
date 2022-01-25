@@ -51,7 +51,7 @@ export const projects = [
 ]
 
 
-export const education = [
+export const educations = [
 	{
 		date : "September 2019 - June 2023",
 		school : "Gebze Technical University",
@@ -60,13 +60,13 @@ export const education = [
 	},
 	{
 		date : "September 2017 - June 2019",
-		school : "Gebze Technical University",
-		major : "Computer Science and Engineering, Bachelor’s Degree",
+		school : "Yıldız Technical University",
+		major : "Mechanical Engineering, Bachelor’s Degree",
 		info : "Major changed"
 	}
 ]
 
-export const experience = [
+export const experiences = [
 	{
 		date : "February 2021 - October 2021",
 		company : "TuvisAI",
@@ -74,6 +74,14 @@ export const experience = [
 		info : "He developed different panels for both team members and\
 			the customers with using React JS.\n\
 			He developed REST API's with Django Rest Framework" 
+	},
+	{
+		date : "February 2021 - July 2021",
+		company : "GTU AVES Team",
+		title : "Software Team Member",
+		info : "Teknofest, Multirotor Fighter UAV software team member.\
+			Worked as a fullstack developer. He developed a live GPS\
+			navigation panel with using React JS and web sockets" 
 	},
 	{
 		date : "March 2021 - June 2021",

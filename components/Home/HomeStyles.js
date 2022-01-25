@@ -13,6 +13,7 @@ export const Hero = styled.div`
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		padding: 0px;
 
 		li{
 			margin: 0px 20px;

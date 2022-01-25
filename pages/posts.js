@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import Home from '../components/Home'
 import Projects from '../components/Projects'
+import ResumeLayout from '../components/ResumeLayout'
 
 export default function Posts(){
 	return (
@@ -9,6 +10,7 @@ export default function Posts(){
 			<Navbar></Navbar>
 			<Home></Home>
 			<Projects></Projects>
+			<ResumeLayout></ResumeLayout>
 		</>
 	)
 }

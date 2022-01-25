@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { projects } from '../../data/constants'
 import { Code, Demo } from '../SocialMediaIcons';
-import Card from '../Card'
+import Card from '../ProjectCard'
 import { ProjectsWrapper } from './ProjectStyles'
 
 
