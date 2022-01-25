@@ -1,0 +1,58 @@
+import styled from 'styled-components'
+
+
+export const Navbar = styled.header`
+	width:100%;
+	background-color: #222222;
+	font-size: 24px;
+	margin: 0px;
+	padding: 1px;
+	font-weight: 100;
+
+	a{
+		text-decoration: none;
+		color: #ffffff;
+
+		&:hover{
+			color: #dddddd;
+		}
+
+	}
+
+	ul{
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		li{
+			margin: 0px 50px;
+		}
+
+	}
+`
+
+
+
+// export const Navbar = styled.header`
+// 	width: 100%;
+// 	margin: 0px auto;
+// 	background-color: orange;
+// 	font-size: 2em;
+// 	padding: 24px;
+
+// 	ul {
+// 		list-style: none;
+// 		display: flex;
+// 		flex-direction: row;
+// 		justify-content: center;
+// 		align-items: center;
+// 		margin: 0px;
+
+// 		li{
+// 			margin: 0px 20px;
+// 		}
+// 	}
+
+// `
+

@@ -1,16 +1,14 @@
 import Link from 'next/link'
+import Navbar from '../components/Navbar'
+import Home from '../components/Home'
+import Projects from '../components/Projects'
 
 export default function Posts(){
 	return (
 		<>
-			<ul>
-					<li>Post-1</li>
-					<li>Post-2</li>
-					<li>Post-3</li>
-				</ul>
-				<Link href="/">
-					Home Page
-				</Link>
+			<Navbar></Navbar>
+			<Home></Home>
+			<Projects></Projects>
 		</>
 	)
 }
