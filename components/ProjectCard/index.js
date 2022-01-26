@@ -4,7 +4,6 @@ import { CardWrapper } from './CardStyles'
 import { Code, Demo } from '../SocialMediaIcons'
 
 function Card({project}){
-	console.log(project)
 	return(
 		<CardWrapper>
 			<img src={project.image}></img>
