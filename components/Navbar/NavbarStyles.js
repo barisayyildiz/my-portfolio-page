@@ -30,6 +30,12 @@ export const Navbar = styled.header`
 		}
 
 	}
+
+	@media (max-width: 540px) {
+    display: none;
+  }
+
+
 `
 
 

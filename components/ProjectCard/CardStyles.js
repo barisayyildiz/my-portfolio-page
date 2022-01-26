@@ -30,6 +30,7 @@ export const CardWrapper = styled.div`
 		background-color: #222222;
 		opacity: 0;
 		transition: all 0.5s;
+		padding-bottom: 50px;
 
 		display: grid;
 		justify-content: center;

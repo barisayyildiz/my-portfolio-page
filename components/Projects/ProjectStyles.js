@@ -8,6 +8,22 @@ export const ProjectsWrapper = styled.div`
 		column-count: 3;
   	column-gap: 10px;
 	}
+
+	@media (max-width: 768px) {
+    .projects_grid{
+			column-count: 2;
+			column-gap: 10px;
+		}
+  }
+
+	@media (max-width: 540px) {
+    .projects_grid{
+			column-count: 1;
+			column-gap: 0px;
+		}
+  }
+
+
 `
 
 

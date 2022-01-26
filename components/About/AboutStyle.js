@@ -44,6 +44,23 @@ export const AboutWrapper = styled.div`
 			text-align: left;
 		}
 	}
+	
+	@media (max-width: 1000px) {
+  
+		display: block;
+		.div2 { 
+			img{
+				width: 100%
+			}
+		}
 
+		.div3 { 
+			p{
+				font-size: 1.7em;
+				margin: 0px;
+				text-align: center;
+			}
+		}
+  }
+	
 `
-

@@ -26,5 +26,11 @@ export const ExperienceWrapper = styled.div`
 
 	}
 
+	@media (max-width: 540px) {
+    .resume-lists{
+			grid-template-columns: 100%;
+		}
+  }
+
 `
 
