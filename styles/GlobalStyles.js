@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
+
 const GlobalStyles = createGlobalStyle`
 	html,
 	body {
@@ -10,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
 			sans-serif;
 		background-color: #222222;
 		color: #ffffff;
+		scroll-behavior: smooth;
 	}
 
 	ul{

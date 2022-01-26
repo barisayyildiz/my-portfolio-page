@@ -2,6 +2,8 @@ import styled from "styled-components"
 
 export const CardWrapper = styled.div`
 	width: 100%;
+	cursor: pointer;
+	
 	img{
 		width: 100%;
 	}
