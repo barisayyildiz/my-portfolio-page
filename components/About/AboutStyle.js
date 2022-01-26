@@ -28,11 +28,7 @@ export const AboutWrapper = styled.div`
 
 	.div1 { 
 		grid-area: 1 / 1 / 2 / 4;
-		padding-bottom: 100px;
-		h1{
-			font-size: 36px;
-			font-weight: 400;
-		}
+		padding-bottom: 30px;
 	}
 	.div2 { 
 		grid-area: 2 / 1 / 3 / 2;

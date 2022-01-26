@@ -5,11 +5,12 @@ import { Code, Demo } from '../SocialMediaIcons';
 import Card from '../ProjectCard'
 import { ProjectsWrapper } from './ProjectStyles'
 
+import { Header } from '../../styles/GlobalStyles'
 
 function Projects(){
 	return(
 		<ProjectsWrapper id="projects">
-			<h1>Projects</h1>
+			<Header>Projects</Header>
 			<div className='projects_grid'>
 				{
 					projects.map((project) => {

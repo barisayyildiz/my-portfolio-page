@@ -1,17 +1,17 @@
 import React from 'react'
 
 import { educations, experiences } from '../../data/constants'
-
 import { ExperienceWrapper } from './ExperienceStyle'
-
 import { ExperienceCard, EducationCard } from '../ExperienceCard'
+
+import { Header } from '../../styles/GlobalStyles'
 
 function index(){
 	return(
 		<ExperienceWrapper id="resume">
-			<h1>
+			<Header>
 				My Resume
-			</h1>
+			</Header>
 			<div className='resume-lists'>
 				<div>
 					<ul>

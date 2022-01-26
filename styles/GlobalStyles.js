@@ -1,5 +1,9 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
+export const Header = styled.h1`
+	font-size: 36px;
+	font-weight: 400;
+`
 
 const GlobalStyles = createGlobalStyle`
 	html,

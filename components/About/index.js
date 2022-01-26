@@ -3,13 +3,15 @@ import React from 'react';
 import { user } from '../../data/constants.js'
 import { AboutWrapper, Button } from './AboutStyle'
 
+import { Header } from '../../styles/GlobalStyles'
+
 function About(){
 	return(
 		<AboutWrapper id="about">
 			<div class="div1">
-				<h1>
+				<Header>
 					About Me
-				</h1>
+				</Header>
 			</div>
 			<div class="div2">
 				<img src="/baris.jpg/"></img>

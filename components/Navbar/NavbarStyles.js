@@ -33,26 +33,3 @@ export const Navbar = styled.header`
 `
 
 
-
-// export const Navbar = styled.header`
-// 	width: 100%;
-// 	margin: 0px auto;
-// 	background-color: orange;
-// 	font-size: 2em;
-// 	padding: 24px;
-
-// 	ul {
-// 		list-style: none;
-// 		display: flex;
-// 		flex-direction: row;
-// 		justify-content: center;
-// 		align-items: center;
-// 		margin: 0px;
-
-// 		li{
-// 			margin: 0px 20px;
-// 		}
-// 	}
-
-// `
-
