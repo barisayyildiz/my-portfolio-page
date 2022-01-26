@@ -1,4 +1,4 @@
-import { user, projects } from '../data/constants'
+import { user, projects } from '../data'
 
 // posts will be populated at build time by getStaticProps()
 function Blog({ projects }) {

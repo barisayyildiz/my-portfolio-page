@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { user } from '../../data/constants.js'
+import { user } from '../../data'
 import { AboutWrapper, Button } from './AboutStyle'
 
 import { Header } from '../../styles/GlobalStyles'

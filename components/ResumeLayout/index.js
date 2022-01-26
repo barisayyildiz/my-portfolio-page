@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { educations, experiences } from '../../data/constants'
+import { educations, experiences } from '../../data'
 import { ExperienceWrapper } from './ExperienceStyle'
 import { ExperienceCard, EducationCard } from '../ExperienceCard'
 

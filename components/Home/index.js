@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 import { Hero } from './HomeStyles'
-import { user } from '../../data/constants'
+import { user } from '../../data'
 import { Linkedin, Github, Medium, CV } from '../SocialMediaIcons';
 
 function Home(){

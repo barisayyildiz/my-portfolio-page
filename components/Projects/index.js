@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { projects } from '../../data/constants'
+import { projects } from '../../data'
 import { Code, Demo } from '../SocialMediaIcons';
 import Card from '../ProjectCard'
 import { ProjectsWrapper } from './ProjectStyles'
