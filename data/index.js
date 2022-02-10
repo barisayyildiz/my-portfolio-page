@@ -49,6 +49,11 @@ export const projects = [
 		demo : "https://barisayyildiz.github.io/Sorting-Algorithms-Visualizer/",
 		image : "/images/sorting.png"
 	},
+	{
+		name : "Anicare Admin Panel",
+		code : "https://github.com/barisayyildiz/anicare_admin_paneli",
+		image : "/images/adminpanel.png"
+	}
 ]
 
 
@@ -57,7 +62,7 @@ export const educations = [
 		date : "September 2019 - June 2023",
 		school : "Gebze Technical University",
 		major : "Computer Science and Engineering, Bachelor’s Degree",
-		info : "GPA : 3.75"
+		info : "GPA : 3.53"
 	},
 	{
 		date : "September 2017 - June 2019",
