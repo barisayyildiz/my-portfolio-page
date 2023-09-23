@@ -1,17 +1,7 @@
-import { BrandLinkedin, BrandGithub, BrandMedium, World } from 'tabler-icons-react';
 import RepoCard from "react-repo-card";
+import { repositories } from "@/constants";
 
-const repositories = [
-  "wordle-clone",
-  "flight-search-app",
-  "image-gallery",
-  "tvseries-tracker",
-  "turkish-vowel-classification",
-  "discovery-of-hecs"
-]
-
-export default function Projects() {
-
+export default function Projects(props: null) {
   return (
     <main className="max-w-screen-xl mx-auto px-4 py-20 md:px-6 lg:px-8 min-h-[75vh]">
       <div className='flex flex-col gap-2 animation-left flex-wrap'>
@@ -26,4 +16,11 @@ export default function Projects() {
       </div>
     </main>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: {},
+    revalidate: 28800, // re-render in each 8 hours
+  }
 }

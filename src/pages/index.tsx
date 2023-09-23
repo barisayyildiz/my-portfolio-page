@@ -1,4 +1,11 @@
-import { BrandLinkedin, BrandGithub, BrandMedium, World, FileText, Mailbox } from 'tabler-icons-react';
+import { 
+  BrandLinkedin, 
+  BrandGithub, 
+  BrandMedium, 
+  World, 
+  FileText, 
+  Mailbox 
+} from 'tabler-icons-react';
 
 export default function Home() {
   const links = [
