@@ -6,7 +6,7 @@ export default function Resume() {
     <main className="mx-auto px-4 py-10 md:px-6 lg:px-8 min-h-[75vh] animation-left">
       <div className="flex flex-col gap-2">
         <h1 className='text-3xl'>My Resume</h1>
-        <div className="flex gap-4">
+        <div className="flex gap-4 experience-container">
           <div className='flex flex-col gap-4 flex-1'>
             <h2 className='text-xl'>Education</h2>
             <ul className='flex flex-col mt-2 gap-2'>

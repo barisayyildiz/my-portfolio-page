@@ -40,3 +40,9 @@ body {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .experience-container {
+    flex-direction: column-reverse;
+  }  
+}
+
