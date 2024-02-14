@@ -1,4 +1,5 @@
 export const repositories = [
+  "flight-search-api",
   "wordle-clone",
   "flight-search-app",
   "image-gallery",
@@ -10,11 +11,11 @@ export const repositories = [
 export const resume = {
   educations: [
     {
-      date: "September 2019 - present",
+      date: "September 2019 - February 2024",
       school: "Gebze Technical University",
       location: "Kocaeli, Turkey",
       major: "Computer Science and Engineering, Bachelor’s Degree",
-      info: "GPA : 3.17",
+      info: "GPA : 3.23",
     },
     {
       date: "February 2022 - June 2022",
@@ -26,21 +27,23 @@ export const resume = {
   ],
   experiences: [
     {
-      date: "July 2023 - October 2023",
-      company: "NextLua",
-      title: "Frontend Developer",
+      date: "October 2023 - February 2024",
+      company: "TEA Networks",
+      title: "Backend Developer",
       location: "Istanbul, Turkey",
       info: "\
-        Collaborated with the development team to create an interactive and dynamic admin dashboard using React.js and the KendoReact library for Minbee\
+        Performed backend development using Spring Boot, Java, and Kafka, handling time-series data in PostgreSQL and TimescaleDB to ensure efficient data management.\n \
+        Implemented and maintained Kubernetes and Docker containers for deployment, ensuring scalability and reliability of the application. \n\
+        Utilized Prometheus and Grafana for monitoring purposes, ensuring optimal performance and identifying potential issues promptly.\
       ",
       keywords: [
-        "React.js",
-        "Redux",
-        "CSS",
-        "Tailwind",
-        "Git",
-        "Agile Methodologies",
-        "Web Development",
+        "Java",
+        "Spring Boot",
+        "Kafka",
+        "PostgreSQL",
+        "Prometheus",
+        "Docker",
+        "Kubernetes",
       ],
     },
     {
@@ -86,16 +89,6 @@ export const resume = {
         "Ant Design",
         "Web Development",
       ],
-    },
-    {
-      date: "February 2021 - July 2021",
-      company: "GTU AVES Team",
-      title: "Software Team Member",
-      info: "Worked as a fullstack developer, contributed to the\
-        development of a live GPS navigation panel using React.js\
-        and web sockets.\
-        ",
-      keywords: ["JavaScript", "WebSockets", "React.js", "Git", "Web Development"],
     },
     {
       date: "March 2021 - June 2021",
