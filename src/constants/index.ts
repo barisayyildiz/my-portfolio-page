@@ -1,4 +1,5 @@
 export const repositories = [
+  "course-selection-microservices",
   "flight-search-api",
   "wordle-clone",
   "flight-search-app",
@@ -26,6 +27,22 @@ export const resume = {
     }
   ],
   experiences: [
+    {
+      date: "March 2024 - Currently",
+      company: "Amadeus",
+      title: "Software Engineer",
+      location: "Istanbul, Turkey",
+      info: "\
+        Developed ESB solutions with Java, Apache Camel and ActiveMQ for smooth microservice communication within Amadeus and external systems.\n \
+      ",
+      keywords: [
+        "Java",
+        "Apache Camel",
+        "ActiveMQ",
+        "Hazelcast",
+        "Wildfly"
+      ],
+    },
     {
       date: "October 2023 - February 2024",
       company: "TEA Networks",
@@ -89,20 +106,6 @@ export const resume = {
         "Ant Design",
         "Web Development",
       ],
-    },
-    {
-      date: "March 2021 - June 2021",
-      company: "GTU C Laboratory",
-      title: "Tutor",
-      info: "Assisted freshman students in learning C programming",
-      keywords: ["C"],
-    },
-    {
-      date: "October 2020 - January 2021",
-      company: "GTU BT",
-      title: "JavaScript Tutor",
-      info: "He gave JavaScript lessons from beginner level to moderate level.",
-      keywords: ["JavaScript"],
-    },
+    }
   ]
 }
