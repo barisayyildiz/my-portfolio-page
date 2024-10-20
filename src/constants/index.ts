@@ -33,14 +33,19 @@ export const resume = {
       title: "Software Engineer",
       location: "Istanbul, Turkey",
       info: "\
-        Developed ESB solutions with Java, Apache Camel and ActiveMQ for smooth microservice communication within Amadeus and external systems.\n \
+        Developed ESB solutions with Java, Apache Camel, and ActiveMQ for smooth communication, serving over 15 airports and handling 3,000 movements daily.\n \
+        Solved 30+ bugs per month during maintenance, enhancing system stability and performance.\
       ",
       keywords: [
         "Java",
         "Apache Camel",
         "ActiveMQ",
         "Hazelcast",
-        "Wildfly"
+        "JBoss",
+        "Azure",
+        "Jenkins",
+        "Docker",
+        "Kubernetes"
       ],
     },
     {
