@@ -8,6 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        border: '#e5e7eb',      // example border color
+        ring: '#3b82f6',        // example ring color
+        background: '#ffffff',  // background color
+        foreground: '#111827',  // text color
+        primary: '#3b82f6',     // for your buttonVariants
+        'primary-foreground': '#ffffff',
+        destructive: '#ef4444',
+        'secondary-foreground': '#1f2937',
+        // add more colors as needed
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -17,4 +28,5 @@ const config: Config = {
   },
   plugins: [],
 }
+
 export default config
