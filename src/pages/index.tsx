@@ -95,9 +95,9 @@ export default function App() {
                 My name is <strong>Baris Ayyildiz</strong>
               </p>
               <p className="text-xl text-muted-foreground mb-4">
-                I am an enthusiastic software engineer living in Cottbus, Germany.
+                I am an enthusiastic software engineer based in Berlin, Germany.
                 <br/>
-                Currently, I am studying Cyber Security.
+                Currently pursuing a Master's degree in Cyber Security.
               </p>
               <p className="text-lg text-muted-foreground">
                 Feel free to contact with me

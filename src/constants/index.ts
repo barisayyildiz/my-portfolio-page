@@ -85,7 +85,7 @@ export const education = [
     degree: "Master of Science in Cyber Security",
     school: "Brandenburg University of Technology",
     period: "2025 - Present",
-    location: "Cottbus, Germany",
+    location: "Germany",
   },
   {
     degree: "Bachelor of Science in Computer Engineering",
