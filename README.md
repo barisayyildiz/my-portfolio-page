@@ -1,1 +1,1 @@
-### [Link](https://barisayyildiz.vercel.app/)
+### [Link]([https://barisayyildiz.vercel.app/](https://barisayyildiz.github.io/my-portfolio-page/))
