@@ -128,7 +128,7 @@ export default function App() {
                 className="flex items-center gap-2"
                 onClick={() => {
                   const link = document.createElement("a");
-                  link.href = "/Baris_Ayyildiz_CV.pdf";
+                  link.href = "Baris_Ayyildiz_CV.pdf";
                   link.download = "Baris_Ayyildiz_CV.pdf";
                   link.click();
                 }}
