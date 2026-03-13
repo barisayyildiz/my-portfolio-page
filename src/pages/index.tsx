@@ -39,41 +39,37 @@ export default function App() {
           <nav className="flex items-center space-x-8 text-sm font-medium">
             <button
               onClick={() => scrollToSection("about")}
-              className={`transition-colors hover:text-foreground/80 ${
-                activeSection === "about"
-                  ? "text-foreground"
-                  : "text-foreground/60"
-              }`}
+              className={`transition-colors hover:text-foreground/80 ${activeSection === "about"
+                ? "text-foreground"
+                : "text-foreground/60"
+                }`}
             >
               About
             </button>
             <button
               onClick={() => scrollToSection("experience")}
-              className={`transition-colors hover:text-foreground/80 ${
-                activeSection === "experience"
-                  ? "text-foreground"
-                  : "text-foreground/60"
-              }`}
+              className={`transition-colors hover:text-foreground/80 ${activeSection === "experience"
+                ? "text-foreground"
+                : "text-foreground/60"
+                }`}
             >
               Experience
             </button>
             <button
               onClick={() => scrollToSection("skills")}
-              className={`transition-colors hover:text-foreground/80 ${
-                activeSection === "skills"
-                  ? "text-foreground"
-                  : "text-foreground/60"
-              }`}
+              className={`transition-colors hover:text-foreground/80 ${activeSection === "skills"
+                ? "text-foreground"
+                : "text-foreground/60"
+                }`}
             >
               Skills
             </button>
             <button
               onClick={() => scrollToSection("certificates")}
-              className={`transition-colors hover:text-foreground/80 ${
-                activeSection === "certificates"
-                  ? "text-foreground"
-                  : "text-foreground/60"
-              }`}
+              className={`transition-colors hover:text-foreground/80 ${activeSection === "certificates"
+                ? "text-foreground"
+                : "text-foreground/60"
+                }`}
             >
               Certificates
             </button>
@@ -96,7 +92,7 @@ export default function App() {
               </p>
               <p className="text-xl text-muted-foreground mb-4">
                 I am an enthusiastic software engineer based in Berlin, Germany.
-                <br/>
+                <br />
                 Currently pursuing a Master's degree in Cyber Security.
               </p>
               <p className="text-lg text-muted-foreground">
@@ -133,7 +129,7 @@ export default function App() {
                 onClick={() => {
                   const link = document.createElement("a");
                   link.href = "/Baris_Ayyildiz_CV.pdf";
-                  link.download = "/Baris_Ayyildiz_CV.pdf";
+                  link.download = "Baris_Ayyildiz_CV.pdf";
                   link.click();
                 }}
               >
@@ -167,9 +163,9 @@ export default function App() {
                         {exp.period}
                       </div>
                     </div>
-                    
+
                     <p className="text-sm text-muted-foreground mb-4">{exp.description}</p>
-                    
+
                     <div className="flex flex-wrap gap-2">
                       {exp.technologies.map((tech, techIndex) => (
                         <Badge key={techIndex} variant="outline" className="text-xs">
@@ -207,7 +203,7 @@ export default function App() {
                         )}
                       </div>
                     </div>
-                    
+
                     <p className="text-sm text-muted-foreground">{edu.description}</p>
                   </div>
                 ))}
@@ -250,20 +246,20 @@ export default function App() {
                 rel="noopener noreferrer"
                 className="hover:shadow-lg transition-shadow rounded-md"
               >
-              <Card key={index}>
-                <CardHeader>
-                  <CardTitle className="text-lg">{cert.title}</CardTitle>
-                  <CardDescription>{cert.issuer}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex justify-between items-center">
-                    <div className="flex items-center gap-1 text-sm text-muted-foreground">
-                      <Calendar className="h-3 w-3" />
-                      {cert.date}
+                <Card key={index}>
+                  <CardHeader>
+                    <CardTitle className="text-lg">{cert.title}</CardTitle>
+                    <CardDescription>{cert.issuer}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex justify-between items-center">
+                      <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                        <Calendar className="h-3 w-3" />
+                        {cert.date}
+                      </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
               </a>
             ))}
           </div>
